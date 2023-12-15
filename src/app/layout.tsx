@@ -76,8 +76,8 @@ export default function RootLayout({
 
 
               <Avatar className="hidden lg:block">
-                <AvatarImage src="https://github.com/shadcn.png" />
-                <AvatarFallback>CN</AvatarFallback>
+                <AvatarImage src="" />
+                <AvatarFallback className="bg-pink-300">JK</AvatarFallback>
               </Avatar>
             </div>
           </div>

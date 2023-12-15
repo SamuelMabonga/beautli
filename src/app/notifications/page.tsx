@@ -24,7 +24,7 @@ export default function Home() {
                 <div className="p-4 md:p-8 flex flex-col bg-[#F4F4F4]">
                     <div className="flex gap-4">
                         <Avatar className="w-10 h-10 md:w-16 md:h-16">
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src="https://res.cloudinary.com/dfmoqlbyl/image/upload/v1702669061/Ellipse_243_rtu0es.png" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
@@ -56,7 +56,7 @@ export default function Home() {
                 <div className="p-4 md:p-8 flex flex-col bg-[#F4F4F4]">
                     <div className="flex gap-4">
                         <Avatar className="w-10 h-10 md:w-16 md:h-16">
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src="https://res.cloudinary.com/dfmoqlbyl/image/upload/v1702669061/Mask_group_qdljrw.png" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
@@ -90,7 +90,7 @@ export default function Home() {
                 <div className="p-4 md:p-8 flex flex-col ">
                     <div className="flex gap-4">
                         <Avatar className="w-10 h-10 md:w-16 md:h-16">
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src="https://res.cloudinary.com/dfmoqlbyl/image/upload/v1702669061/Ellipse_244_algoqo.pngg" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
@@ -109,7 +109,7 @@ export default function Home() {
                 <div className="p-4 md:p-8 flex flex-col">
                     <div className="flex gap-4">
                         <Avatar className="w-10 h-10 md:w-16 md:h-16">
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src="https://res.cloudinary.com/dfmoqlbyl/image/upload/v1702669061/Mask_group_qdljrw.png" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
@@ -147,7 +147,7 @@ export default function Home() {
                 <div className="p-4 md:p-8 flex flex-col ">
                     <div className="flex gap-4">
                         <Avatar className="w-10 md:w-16 h-10 md:h-16">
-                            <AvatarImage src="https://github.com/shadcn.png" />
+                            <AvatarImage src="https://res.cloudinary.com/dfmoqlbyl/image/upload/v1702669061/Ellipse_243_rtu0es.png" />
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
