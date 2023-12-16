@@ -73,7 +73,7 @@ export default function Home() {
                         </Avatar>
 
                         <div className="flex flex-col my-auto">
-                            <h4 className="md:text-lg font-medium">Rebecca Wright  sent you a message.</h4>
+                            <h4 className="md:text-lg font-medium">Rebecca Wright sent you a message.</h4>
                             <p className="text-gray-500 text-sm md:text-base">Hey are you available to do these conrows for me.....</p>
                         </div>
 
