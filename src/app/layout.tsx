@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Poppins } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 import './globals.css'
 import Logo from '@/components/logo'
 import { Input } from '@/components/ui/input'
@@ -7,10 +7,6 @@ import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import PopoverMenu from '@/components/popover'
 import Link from 'next/link'
 
-
-// import { Input } from 'postcss'
-
-const inter = Inter({ subsets: ['latin'] })
 
 const poppins = Poppins({
   weight: ['400', "500", '700'],
