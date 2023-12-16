@@ -4,7 +4,6 @@ import './globals.css'
 import Logo from '@/components/logo'
 import { Input } from '@/components/ui/input'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
-import Menu from '@/components/menu'
 import PopoverMenu from '@/components/popover'
 import Link from 'next/link'
 

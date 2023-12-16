@@ -1,9 +1,8 @@
-import ResponsiveImage from '@/components/responsiveImage'
+
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-import Image from 'next/image'
 
 export default function Home() {
     return (
@@ -41,7 +40,7 @@ export default function Home() {
                 <Separator />
 
 
-                <div className="flex flex-col gap-4 p-4 md:p-8 bg-[#F4F4F4]">
+                <div className="flex flex-col p-4 md:p-8 bg-[#F4F4F4]">
 
                     <div className="flex flex-col">
                         <h4 className="md:text-lg font-medium">Deposit sent to Jane’s beauty Parlour for medium short braids.</h4>
@@ -113,12 +112,12 @@ export default function Home() {
                             <AvatarFallback>CN</AvatarFallback>
                         </Avatar>
 
-                        <div className="flex flex-col ">
+                        <div className="flex flex-col gap-1">
                             <h4 className="md:text-lg font-medium">Samantha accepted your booking request</h4>
 
                             <div className="flex gap-4">
-                                <Button variant="default" className="font-bold bg-[#CC0087]">Review</Button>
-                                <Button variant="outline" className="font-bold">Decline</Button>
+                                <Button variant="default" className="font-medium bg-[#CC0087]">Review</Button>
+                                <Button variant="outline" className="font-medium">Decline</Button>
                             </div>
 
                         </div>
@@ -128,7 +127,6 @@ export default function Home() {
                 </div>
 
                 <Separator />
-
 
                 <div className="flex flex-col p-4 md:p-8">
                     <div className="flex flex-col ">
@@ -161,8 +159,6 @@ export default function Home() {
                     <p className="text-gray-500 text-right text-sm">5m</p>
                 </div>
             </div>
-
-
         </main>
     )
 }

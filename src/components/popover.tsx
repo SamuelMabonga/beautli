@@ -127,8 +127,8 @@ export default function PopoverMenu() {
               <h4 className=" font-medium">Samantha accepted your booking request</h4>
 
               <div className="flex gap-4">
-                <Button size="sm" variant="default" className="font-bold bg-[#CC0087]">Review</Button>
-                <Button size="sm" variant="outline" className="font-bold">Decline</Button>
+                <Button size="sm" variant="default" className="font-medium bg-[#CC0087]">Review</Button>
+                <Button size="sm" variant="outline" className="font-medium">Decline</Button>
               </div>
 
             </div>

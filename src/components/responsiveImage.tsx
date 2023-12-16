@@ -80,7 +80,6 @@ export default function ResponsiveImage({
     <div ref={divRef} className="h-fit overflow-hidden rounded relative">
       <Image
         src={newUrl}
-        // src={isValidUrl(src) ? src : "https://res.cloudinary.com/dfmoqlbyl/image/upload/v1701072972/prvmwaj5fpwwpth2behw.jpg"}
         alt={alt}
         width={0}
         height={0}
@@ -88,7 +87,6 @@ export default function ResponsiveImage({
         objectFit={objectFit}
         onLoad={() => setLoading((prev: Boolean) => !prev)}
         placeholder={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}
-        // loader={}
       />
     </div>
     )
